@@ -1,4 +1,8 @@
+Retrieve data through this link: https://www.kaggle.com/datasets/mathchi/diabetes-data-set
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
+df = pd.read_csv('diabetes.csv')
+df.head()
